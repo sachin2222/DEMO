@@ -29,7 +29,7 @@ public class WebDriverTest {
     {
         driver.findElement(By.name("txtUsername")).sendKeys("Admin");
         driver.findElement(By.name("txtPassword")).sendKeys("admin123");
-        driver.findElement(By.name("Submit")).click()
+        driver.findElement(By.name("Submit")).click();
 
 
     }
